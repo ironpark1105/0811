@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+
+        body{
+            margin: 0;
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .topnav{
+            background-color: darkblue;
+            overflow: hidden;
+            
+        }
+
+        .topnav a:hover{
+            background-color: darkgreen;
+        }
+
+        .topnav a{
+            display: block;
+            color:#fff;
+            text-align: center;
+            padding: 15px 17px ;
+            border-bottom: 1px solid #000;
+            float: left;
+        }
+
+        @media screen and (max-width:780px){
+            .topnav a{
+                float: none;
+                width: 100%;
+            }
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>반응형 웹 네비게이션 연습</h1>
+    <div class="topnav">
+        <a href="#">메뉴1</a>
+        <a href="#">메뉴2</a>
+        <a href="#">메뉴3</a>
+        <a href="#">메뉴4</a>
+        <a href="#">메뉴5</a>
+    </div>
+</body>
+</html>
